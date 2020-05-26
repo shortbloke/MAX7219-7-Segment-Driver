@@ -57,7 +57,7 @@ void loop() {
       int xx = zz;
       Serial.println(xx);
 
-      xx = map(xx, 0, 100, 0, 17);
+      xx = map(xx, 0, 100, 0, 16);
       My_Display.MAX7219_Write(5, Bar_1[xx]);
       My_Display.MAX7219_Write(6, Bar_2[xx]);
 
